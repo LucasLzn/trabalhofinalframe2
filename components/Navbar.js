@@ -7,7 +7,6 @@ export default function Navbar(){
 
                 <li> <a href='/'> Home </a> </li>
                 <li> <a href='/produtos'> Produtos </a> </li>
-                <li> <a href='/supreme'> Supreme </a> </li>
 
             </ul>
         </div>

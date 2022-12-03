@@ -19,23 +19,25 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          WELCOME <a href="https://nextjs.org">SUPREME!</a>
+          WELCOME A <a href="https://nextjs.org">SUPREME!</a>
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
+        A Supreme é uma loja virtual pensada para atender você da melhor forma possível.
+
+        Os produtos são enviados da nossa sede em São Paulo para seu endereço cadastrado.
+
+        Simples, barato e seguro! Os produtos selecionados pelos nossos consultores seguem um alto padrão de qualidade.
+
+        Buscamos estar atualizados sempre com as novas tendências da moda e os mais variados produtos. Fique por dentro da moda e economize tempo e dinheiro.
+
+        A Supreme está aqui para te oferecer o melhor que o mundo tem a oferecer!
         </p>
 
         <div className={styles.grid}>
           <a href="/produtos" className={styles.card}>
             <h2>Produtos &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="/supreme" className={styles.card}>
-            <h2>Veja a logo supreme &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+            <p>Conheça os produtos da nossa loja.</p>
           </a>
 
           <Footer/>

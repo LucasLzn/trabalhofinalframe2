@@ -7,7 +7,7 @@ function Footer(){
 
         <div> 
 
-            <footer className={styles.footer}> <p> CRIADO POR LUCAS F </p></footer>
+            <footer className={styles.footer}> <p> CRIADO POR LUCAS VERÃO E RAY POLONI </p></footer>
 
         </div>
 

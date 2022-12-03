@@ -33,10 +33,10 @@ export async function getStaticProps(context){
 
 export async function getStaticPaths() {
     const response = await axios.get(
-        'https://fakestoreapi.com/products/'
+        'https://fakestoreapi.com/products'
     );
 
-    const user = await response.data;
+    const products = await response.data;
     const paths = products.map((produto) => {
         return {params: {id: String(produto.id)}}
     })

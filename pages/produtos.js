@@ -15,10 +15,9 @@ function Produtos({products}){
             {products.map((produto) => (
                 <div key={produto.id}>
 
-                    
                     <div> 
-                        <Link href='/produto/[id]' as={'/produto/${produto.id}'}> 
-                            <a> {produto.title} </a> 
+                        <Link href='/produto/[id]' as={`/produto/${produto.id}`}> 
+                            <p> {produto.title} </p> 
                         </Link>  
                     </div>
                     
