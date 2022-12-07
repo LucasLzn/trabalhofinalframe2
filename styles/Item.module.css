@@ -1,0 +1,87 @@
+.wholepage {
+  min-height: 100vh;
+  background-color: var(--bright);
+}
+
+.product {
+  min-height: 100vh;
+  padding: 3.2em;
+}
+
+.header {
+  padding: 0 2em;
+  width: 72vw;
+}
+
+.header * {
+  margin: .5em;
+}
+
+.header *:last-child {
+  padding: 2em .8em;
+  font-size: 1.25em;
+}
+
+.imgBackground {
+  position: relative;
+  left: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 560px;
+  width: 520px;
+  background-color: white;
+  margin: 2em 1em;
+}
+
+.img {
+  width: 300px;
+}
+
+.details {
+  padding: 0 3.2em;
+  font-size: 1.2em;
+}
+
+.details * {
+  margin: .5em;
+}
+
+.quantity span {
+  font-size: 1.28em;
+}
+
+.rate *:first-child {
+  position: relative;
+  top: .6em;
+  color: var(--yellow);
+  height: 1.2em;
+  width: 1.2em;
+  margin-right: -.5em;
+}
+
+.rate span {
+  font-size: 1.32em;
+  font-weight: bold;
+}
+
+.price {
+  margin-top: 1em;
+  font-size: 1.6em;
+}
+
+.cta {
+  display: inline-block;
+  margin: 2em 5em;
+  padding: 1em 1.6em;
+  background-color: var(--red);
+  border-radius: 1.6em;
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.cta:hover {
+  background-color: var(--darker-red);
+}

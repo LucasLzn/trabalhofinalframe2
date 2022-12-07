@@ -2,11 +2,13 @@ import styles from '../styles/Navbar.module.css';
 
 export default function Navbar(){
     return (
-        <div> 
-            <ul className={styles.navbar}> 
+        <div  className={styles.navbar}> 
 
-                <li> <a href='/'> Home </a> </li>
-                <li> <a href='/produtos'> Produtos </a> </li>
+            <a className={styles.logo} href="/">SUPREME<span>!</span></a>
+
+            <ul className={styles.navlinks}> 
+                <li> <a href='/'> HOME </a> </li>
+                <li> <a href='/produtos'> PRODUTOS </a> </li>
 
             </ul>
         </div>

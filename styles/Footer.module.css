@@ -1,16 +1,6 @@
-.footer{
-    background-color: rgb(43, 10, 10);
-    display: flex;
-    justify-content: center;
-    padding: 40px 50px;
-    height: 100px;
-    width: 1300px;
-
+.footer {
+  padding: 2.4em;
+  background-color: var(--black);
+  color: white;
+  font-size: 1em;
 }
-
-.footer p{
-    display: flex;
-  justify-content: center;
-  align-items: center;
-}
-

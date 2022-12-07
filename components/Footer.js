@@ -4,10 +4,10 @@ import styles from '../styles/Footer.module.css';
 function Footer(){
 
     return (
-
+        
         <div> 
 
-            <footer className={styles.footer}> <p> CRIADO POR LUCAS VERÃO E RAY POLONI </p></footer>
+            <footer className={styles.footer}> <p> Criado por Lucas Verão e Ray Poloni </p></footer>
 
         </div>
 
